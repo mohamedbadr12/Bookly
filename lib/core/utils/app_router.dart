@@ -31,6 +31,7 @@ static  final router = GoRouter(
       ),
       GoRoute(
         path: '/search',
+
         builder: (context, state) => const SearchView(),
       ),
     ],
